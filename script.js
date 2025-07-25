@@ -1,9 +1,12 @@
 function toCase(text) {
   // write your code here
+	if (text === "") {
+    return "-";
+  }
 	let low = text.toLowerCase();
 	let up = text.toUpperCase();
 }
-console.log(low + "-" + up)
+return low + "-" + up
 }
 
 // DO not change the code below
